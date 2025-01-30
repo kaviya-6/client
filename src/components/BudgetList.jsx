@@ -6,7 +6,7 @@ const BudgetList = ({ triggerUpdate }) => {
 
   const fetchBudgets = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/budgets');
+      const response = await axios.get('https://unique-u4xh.onrender.com/budgets');
       setBudgets(response.data);
     } catch (error) {
       console.error('Error fetching budgets:', error);

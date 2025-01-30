@@ -41,11 +41,11 @@ const App = () => {
               path="/"
               element={
                 <div className="home-page">
-                  <h1>Welcome to Budget Manager</h1>
+                  <h2>Welcome to Budget Manager</h2>
                   <p>Track your expenses, plan your finances, and manage your budgets efficiently.</p>
                   <img
                     className="home-image"
-                    src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7"
+                    src="bm-1.webp"
                     alt="Budget Management"
                   />
                 </div>
